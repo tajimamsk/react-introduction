@@ -5,6 +5,10 @@ import counterReducer, {
   incrementByAmount,
 } from './counterSlice';
 
+/**
+ * reducerなどに対するテストコード
+ */
+
 describe('counter reducer', () => {
   const initialState: CounterState = {
     value: 3,
